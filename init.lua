@@ -46,6 +46,7 @@ require("lazy").setup({
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 	'theprimeagen/harpoon',
 	'mbbill/undotree',
+	'tpope/vim-fugitive',
 	{
 		'nvim-telescope/telescope.nvim', tag = '0.1.1',
 		dependencies = { 'nvim-lua/plenary.nvim' }
