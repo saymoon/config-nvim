@@ -1,6 +1,6 @@
 require("heixue")
 local set = vim.o
-vim.opt.swapfile = false
+vim.opt.swapfile = true
 set.number = true
 set.relativenumber = true
 set.clipboard = "unnamed"
@@ -45,6 +45,7 @@ require("lazy").setup({
 	},
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 	'theprimeagen/harpoon',
+	'mbbill/undotree',
 	{
 		'nvim-telescope/telescope.nvim', tag = '0.1.1',
 		dependencies = { 'nvim-lua/plenary.nvim' }
