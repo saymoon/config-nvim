@@ -4,6 +4,11 @@ vim.opt.swapfile = false
 set.number = true
 set.relativenumber = true
 set.clipboard = "unnamed"
+set.mouse = "a"
+set.encoding = "utf8"
+set.hlsearch = true
+set.autoindent = true
+set.smartindent = true
 
 -- highlight the block just copied
 vim.api.nvim_create_autocmd({ "TextYankPost" }, {
