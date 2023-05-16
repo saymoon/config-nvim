@@ -1,15 +1,4 @@
 require("heixue")
-local set = vim.o
-vim.opt.swapfile = true
-set.number = true
-set.relativenumber = true
-set.clipboard = "unnamed"
-set.mouse = "a"
-set.encoding = "utf8"
-set.hlsearch = true
-set.autoindent = true
-set.smartindent = true
-
 -- highlight the block just copied
 vim.api.nvim_create_autocmd({ "TextYankPost" }, {
 	pattern = { "*" },
