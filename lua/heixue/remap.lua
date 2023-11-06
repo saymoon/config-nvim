@@ -11,3 +11,6 @@ vim.keymap.set("n", "<Leader>v", "<C-w>v", opt)
 vim.keymap.set("n", "<Leader>s", "<C-w>s", opt)
 
 vim.keymap.set('n', '<space>f', '<cmd>lua vim.lsp.buf.format()<CR>', opt)
+
+vim.keymap.set("n", "<Leader>*", "*``cgn", opt)
+vim.keymap.set("n", "<Leader>#", "#``cgN", opt)
