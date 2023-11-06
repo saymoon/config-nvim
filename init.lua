@@ -37,6 +37,10 @@ require("lazy").setup({
 	'mbbill/undotree',
 	'tpope/vim-fugitive',
     'numToStr/Comment.nvim',
+    {
+        'ggandor/leap.nvim',
+        dependencies = { 'tpope/vim-repeat' }
+    },
 	{
 		'nvim-telescope/telescope.nvim', tag = '0.1.1',
 		dependencies = { 'nvim-lua/plenary.nvim' }
