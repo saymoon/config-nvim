@@ -36,6 +36,7 @@ require("lazy").setup({
 	'theprimeagen/harpoon',
 	'mbbill/undotree',
 	'tpope/vim-fugitive',
+    'numToStr/Comment.nvim',
 	{
 		'nvim-telescope/telescope.nvim', tag = '0.1.1',
 		dependencies = { 'nvim-lua/plenary.nvim' }
